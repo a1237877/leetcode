@@ -1,3 +1,5 @@
+//选择排序
+
 function bubbleSort(arr) {
   var len = arr.length
   var minIndex, temp
@@ -8,7 +10,7 @@ function bubbleSort(arr) {
         minIndex = j
       }
     }
-    temp = arr[i]
+    temp = arr[i] 
     arr[i] = arr[minIndex]
     arr[minIndex] = temp
   }
